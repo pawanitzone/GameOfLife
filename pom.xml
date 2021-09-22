@@ -13,8 +13,8 @@
         <easyb.version>1.4</easyb.version>
         <cobertura.version>2.6</cobertura.version>
         <!-- A workaround for a bug in PMD -->
-        <sourceJdk>1.11</sourceJdk>
-        <targetJdk>1.11</targetJdk>
+        <sourceJdk>1.81</sourceJdk>
+        <targetJdk>1.8</targetJdk>
         <github.account>wakaleo</github.account>
         <thucydides.version>1.8.4</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
@@ -30,7 +30,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
